@@ -28,7 +28,7 @@ octal_number = 0o52  # Base 8 (prefix: 0o)
 hex_number = 0x2A  # Base 16 (prefix: 0x)
 
 print(
-    f"All represent the same number: {decimal_number}, {binary_number}, {octal_number}, {hex_number}"
+    f"Integer literals: {decimal_number}, {binary_number}, {octal_number}, {hex_number}"
 )
 
 # Underscores can be used for readability in large numbers
@@ -48,10 +48,10 @@ y = -0.001
 z = 0.0
 
 # Scientific notation
-avogadro_number = 6.022e23  # 6.022 × 10^23
-plank_constant = 6.626e-34  # 6.626 × 10^-34
+avogadro_number = 6.022e23  # 6.022 * 10^23
+planck_constant = 6.626e-34  # 6.626 * 10^-34
 print(f"Avogadro's number: {avogadro_number}")
-print(f"Plank's constant: {plank_constant}")
+print(f"Planck's constant: {planck_constant}")
 
 # Floating-point division always returns a float
 float_division = 10 / 3
@@ -59,7 +59,8 @@ print(f"10 / 3 = {float_division}")
 
 # =============================================================================
 # COMPLEX NUMBERS:
-# Complex numbers have a real and an imaginary part (j represents the imaginary unit)
+# Complex numbers have a real and an imaginary part (j represents the imaginary
+# unit)
 # =============================================================================
 
 # Basic complex number declaration
@@ -240,7 +241,8 @@ large_factorial = math.factorial(100)  # 100! is a very large number
 print(f"100! has {len(str(large_factorial))} digits")
 
 # Float precision issues
-# Floating-point numbers have limited precision and may lead to unexpected results
+# Floating-point numbers have limited precision and may lead to unexpected
+# results
 a = 0.1 + 0.2
 b = 0.3
 print(f"0.1 + 0.2 = {a}")
